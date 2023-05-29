@@ -11,6 +11,6 @@ describe("Cypress GitHub actions demo", () => {
 
   it("Login page has title", () => {
     cy.visit('http://tredgate.com/pmtool');
-    cy.get(".form-title").should("have.text", "Login");
+    cy.get(".form-title").should("have.text", "Login2");
   });
 });
